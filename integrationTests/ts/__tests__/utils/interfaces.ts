@@ -8,17 +8,9 @@ export interface IVote {
   voteWeight: bigint;
   nonce: bigint;
 }
-
-/**
- * A util interface that represents a briber object
- */
 export interface IBriber {
   voteOptionIndices: bigint[];
 }
-
-/**
- * A util interface that represents a change user keys object
- */
 export interface IChangeUsersKeys {
   voteOptionIndex: bigint;
   voteWeight: bigint;
