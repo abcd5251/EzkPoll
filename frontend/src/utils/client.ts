@@ -1,7 +1,6 @@
 import { createThirdwebClient } from "thirdweb"
 
-const clientId = process.env.NEXT_PUBLIC_CLIENT_ID
-
+const clientId = "cde0bc11fe64c847292c4431ef0fd7cb"
 if (!clientId) {
     throw new Error('No client id provided');
 }
